@@ -1,0 +1,85 @@
+.grid-container {
+  margin: 2em;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+  height: 300px;
+  width: 300px;
+}
+
+.grid-square {
+  border: 1px solid rgb(125, 125, 125);
+}
+
+.position {
+  margin: 1em;
+}
+
+.btn-rotate {
+  margin-top: 1em;
+  font-size: 16px;
+}
+
+.label {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  border: none;
+}
+
+.player-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.grid-title {
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.placement-text {
+  margin-top: 1em;
+}
+
+
+/* === Grid coloring classes === */
+
+.active {
+  background-color: rgb(185, 185, 185);
+}
+
+.occupied {
+  background-color: rgb(80, 81, 82);
+}
+
+.active-occupied {
+  background-color: red;
+}
+
+.enemy-hit {
+  background-color: rgb(142, 187, 91);
+}
+
+.enemy-sunk {
+  background-color: #1C6E1C;
+}
+
+.enemy-miss {
+  background-color: gray;
+}
+
+.hit {
+  background-color: yellow;
+}
+
+.sunk {
+  background-color: #C34141;
+}
+
+/* =========================== */
+

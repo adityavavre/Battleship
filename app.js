@@ -4,8 +4,8 @@ var mysql      = require('mysql');
 var connection = mysql.createConnection({
               host     : 'localhost',
               user     : 'root',
-              password : 'mysql@aditya1999',
-              database : 'user'
+              password : 'ubuntu',
+              database : 'users'
             });
 connection.connect();
 global.db = connection;
@@ -35,6 +35,7 @@ var io = require('socket.io')(http);
 var port = process.env.PORT || 3000;
 var bcrypt=require('bcrypt-nodejs');
 var salt=bcrypt.genSaltSync(10);
+var _ = require('lodash');
 var lobbyUsers = {};
 var activeGames = {};
 var LastUser=undefined;

@@ -1,0 +1,124 @@
+body {
+	overflow-y: auto;
+	display: flex;
+	flex-flow: column;
+	align-content: center;
+	align-items: center;
+	background-image: url('img/pyke.jpg');
+	background-size:cover;
+    
+}
+.page {
+
+	/*margin-top: 20px;*/
+    
+}
+
+.page-login {
+	margin-top: 80px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	padding: 20px;
+	
+	background-color: lightgrey;
+	background-blend-mode:lighten;
+	opacity:0.9;
+}
+	
+	.page.login button {
+		margin-left: 15px;
+		margin-bottom: 20px;
+		height: 35px;
+	}
+	
+	.page.login input {
+		margin-bottom: 20px;
+		width: 202px;
+		height: 25px;
+		font-size: 12pt;
+		padding: 2px;
+		
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px; 
+	}
+
+	.page.lobby h2 {
+		position:center;
+		
+		color: darkgrey;
+	}
+
+	.page.lobby h3 {
+		margin-bottom: 10px;
+		margin-top: 40px;
+	}
+	
+.page.game button {
+	margin-bottom: 10px;	
+}
+#userProfile{
+	display: none;
+	background-color: lightgrey;
+	background-blend-mode:lighten;
+	padding: 20px;
+	width: 180px;
+	opacity:0.9;
+	position:absolute;
+	right:40px;
+	top:40px;
+}
+#scoreboardDisp{
+	display:none;
+	background-color: lightgrey;
+	background-blend-mode:lighten;
+	padding: 20px;
+	width: 320px;
+	opacity:0.9;
+	position:absolute;
+	right:40px;
+	top:400px
+}
+#page-lobby{
+	display: none;
+	background-color: lightgrey;
+	background-blend-mode:lighten;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top:40px;
+	padding: 20px;
+	width: 320px;
+	opacity:0.9;
+}
+#page-game {
+	display: none;
+}
+
+#invites{
+	display: none;
+	background-color: lightgrey;
+	background-blend-mode:lighten;
+	opacity:0.9;
+	padding: 20px;
+	
+}
+#messages-list{
+	display: none;
+}
+#message-box{
+	display: none;
+}
+
+.circle {
+	background-color: green;
+	width: 30px;
+	height: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px; 
+}
+
+.circle.offline {
+	background-color: yellow;
+}

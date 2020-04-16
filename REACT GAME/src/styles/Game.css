@@ -1,0 +1,19 @@
+.game {
+  margin: 4em;
+}
+
+.title {
+  font-size: 48px;  
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(205, 205, 205);
+}
+
+.shipgrid-container {
+  display: flex;
+  justify-content: space-between;
+}

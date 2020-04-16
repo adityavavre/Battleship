@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=410; user-scalable=no; minimal-ui">
+    <title>Battle for the Salt Throne</title>
+	<script src="lib/jquery.min.js"></script>
+    <script src="lib/popper.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="lib/WinJS.4.0/css/ui-light.css" />
+    <link rel="stylesheet" href="/default.css" />
+  </head>
+  <body>
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Notification</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body" id="msg">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 	<div class="invites" id="invites">
+	<p> You have an invitation from </p>
+	<p id="opponent"><p>
+	<button id='Accept'>Accept</button>
+	<button id='Decline'>Decline</button>
+	</div>
+    <div class="page-login" id='page-login'>
+      <h2>Welcome to the Iron Islands, Usurper</h2>
+	  <br>
+	  <h3>You want to defeat King Euron? Fight!<h3>
+	  <h3>Lets see if you have what it takes to sit on the Salt Throne</h3>
+	  <br><br><br><br>
+	  <h3>Remember, What is dead may never die<h3>
+	  <h3>But rises again harder and stronger<h3>
+      <input id='username' type="text" placeholder='Username'></input>
+	    <input id='password' type="password" placeholder='Password' ></input>
+      <button id='login'>Login</button>
+	    <button id='register'>Register</button>
+    </div>
+	<div class="userProfile" id="userProfile">
+	<h3 id='profileLabel'></h3>
+	<h4 id='profilewins'></h4>
+	<h4 id='profilelosses'></h4>
+	<h4 id='profilerating'></h4>
+	</div>
+	<div class="scoreboardDisp" id="scoreboardDisp">
+	</div>
+    <div class="page lobby" id='page-lobby'>
+      <h1>Battleship</h1>
+	  <h2 id='userLabel'></h2>
+	  <h4 id='wins'></h4>
+	  <h4 id='losses'></h4>
+	  <h4 id='rating'></h4>
+	  <h3>Active games</h3>
+      <div id='gamesList'>
+        No active games
+      </div>
+      <h3>Online players</h3>
+       <div id='userList'>
+         No users online
+      </div>
+	  <br><br><br><br><br>
+	  <button id="scoreboard">ScoreBoards</button>
+	  <button id='logout'>Logout</button>  
+    </div>
+	
+    <script src="lib/socket.io-1.2.0.js"></script>
+    <script src="lib/WinJS.4.0/js/WinJS.min.js"></script>
+    <script src="/default.js"></script>
+  </body>
+</html>

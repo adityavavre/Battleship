@@ -1,0 +1,26 @@
+.gamelog-container {
+  margin: 2em;
+  padding: 1em;
+  height: 250px;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 1px 1px rgb(235, 235, 235);
+  overflow-y: scroll;
+}
+
+.player-turn {
+  font-size: 32px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 1em;
+}
+.turn-block {
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+.log {
+  color: gray;
+  margin-top: 10px;
+}
