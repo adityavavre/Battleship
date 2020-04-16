@@ -7,7 +7,7 @@ The implementation is purely based on NodeJS, SocketIO, Express and HTML(with so
 
 Clone this repository using git clone.  
 ```
-$ git clone https://git.cse.iitb.ac.in/arjit/cs251project
+$ git clone https://github.com/adityavavre/Battleship.git
 ```
 
 ### Prerequisites
